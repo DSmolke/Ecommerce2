@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytz = "*"
+pytest = "*"
+python-dotenv = "*"
+
+[dev-packages]
+pytz = "*"
+python-dotenv = "*"
+pytest = "*"
+coverage = "*"
+
+[requires]
+python_version = "3.11"
